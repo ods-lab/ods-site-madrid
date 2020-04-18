@@ -1,7 +1,7 @@
 ---
 title: Guidance
-permalink: /es/guidance/
-language: es
+permalink: /en/guidance/
+language: en
 layout: page
 ---
 

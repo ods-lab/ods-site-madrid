@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-permalink: /en/contact/
-language: en
+permalink: /es/contact/
+language: es
 ---
 ### We are interested in your feedback regarding this website and its contents.
 

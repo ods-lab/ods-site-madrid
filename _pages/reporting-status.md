@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reporting Status
-permalink: /en/reporting-status/
-language: en
+permalink: /es/reporting-status/
+language: es
 layout: reportingstatus
 ---
