@@ -28,7 +28,7 @@ metadata_edit_url: http://prose.io/#ods-lab/ods-data-madrid/edit/develop/meta/[i
 create_indicators:
   layout: indicator
 create_goals:
-  layout: goal
+  layout: goal-by-target
 create_pages: true
 
 analytics:
@@ -39,15 +39,15 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: contact@odslab.org
-  suggestions: contact@odslab.org
-  functional: contact@odslab.org
+  questions: contact@ods-lab.org
+  suggestions: contact@ods-lab.org
+  functional: contact@ods-lab.org
 
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Spain
-  adjective: Spanish
+  name: Madrid
+  adjective: madrileño
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
 #frontpage_heading: Australian data for Sustainable Development Goal indicators
