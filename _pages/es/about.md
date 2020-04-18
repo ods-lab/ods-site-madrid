@@ -1,6 +1,7 @@
 ---
-title: About
-permalink: /about/
+title: Sobre nosotros
+permalink: /es/about/
+language: es
 layout: page
 ---
 
