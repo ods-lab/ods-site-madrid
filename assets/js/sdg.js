@@ -1380,7 +1380,7 @@ var mapView = function () {
     $('#map').sdgMap({
       indicatorId: indicatorId,
       mapOptions: {"tileURL":"https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}","tileOptions":{"id":"mapbox.light","accessToken":"pk.eyJ1IjoibW5sZ2FyYmUiLCJhIjoiY2s5NzdraHFkMGEyZzNlbWpvdTZna2s2YSJ9.fDUM6pveGSoESyPSoxN5Hw","attribution":"<a href=\"https://www.mapbox.com\">Mapbox</a> | <a href=\"http://geoportal.statistics.gov.uk/\">ONS</a>"},"minZoom":8},
-      mapLayers: [{"min_zoom":8,"max_zoom":12,"serviceUrl":"https://github.com/ods-lab/ods-data-madrid/raw/develop/map/barrios.geojson","nameProperty":"DESBDT","idProperty":"079046","staticBorders":true}],
+      mapLayers: [{"min_zoom":8,"max_zoom":12,"serviceUrl":"https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson","nameProperty":"DESBDT","idProperty":"GEOCODIGO","staticBorders":true,"label":"MapaBarrios"},{"min_zoom":8,"max_zoom":12,"serviceUrl":"https://raw.githubusercontent.com/ods-lab/ods-data-madrid/develop/map/distrito_geojson.geojson","nameProperty":"label","idProperty":"codigoalternativo","staticBorders":true,"label":"MapaDistritos"}],
     });
   };
 };
