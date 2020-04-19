@@ -494,11 +494,35 @@
           "status": "notstarted"
         },
         {
+          "id": "4-2-3",
+          "title": "global_indicators.4-2-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-2-3",
+          "status": "notstarted"
+        },
+        {
           "id": "4-3-1",
           "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
           "description": "",
           "keywords": "",
           "href": "/ods-site-madrid/en/4-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-3-2",
+          "title": "global_indicators.4-3-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-3-3",
+          "title": "global_indicators.4-3-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-3-3",
           "status": "notstarted"
         },
         {
@@ -510,11 +534,51 @@
           "status": "notstarted"
         },
         {
+          "id": "4-4-2",
+          "title": "global_indicators.4-4-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-4-2",
+          "status": "notstarted"
+        },
+        {
           "id": "4-5-1",
           "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
           "description": "",
           "keywords": "",
           "href": "/ods-site-madrid/en/4-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-2",
+          "title": "global_indicators.4-5-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-3",
+          "title": "global_indicators.4-5-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-5-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-4",
+          "title": "global_indicators.4-5-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-5-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-5",
+          "title": "global_indicators.4-5-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/en/4-5-5",
           "status": "notstarted"
         },
         {
