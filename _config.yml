@@ -159,7 +159,15 @@ map_layers:
   # Country
   - min_zoom: 8
     max_zoom: 12
-    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/barrios.geojson
+    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson
     nameProperty: DESBDT
-    idProperty: 079046
+    idProperty: GEOCODIGO
     staticBorders: true
+    label: MapaBarrios
+  - min_zoom: 8
+    max_zoom: 12
+    serviceUrl: https://raw.githubusercontent.com/ods-lab/ods-data-madrid/develop/map/distrito_geojson.geojson
+    nameProperty: label
+    idProperty: codigoalternativo
+    staticBorders: true
+    label: MapaDistritos
