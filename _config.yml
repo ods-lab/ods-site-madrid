@@ -155,19 +155,23 @@ map_options:
     accessToken: pk.eyJ1IjoibW5sZ2FyYmUiLCJhIjoiY2s5NzdraHFkMGEyZzNlbWpvdTZna2s2YSJ9.fDUM6pveGSoESyPSoxN5Hw
     attribution: <a href="https://www.mapbox.com">Mapbox</a> | <a href="http://geoportal.statistics.gov.uk/">ONS</a>
   minZoom: 8
+  maxZoom: 18
 map_layers:
   # Country
   - min_zoom: 8
-    max_zoom: 12
+    max_zoom: 17
     serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson
     nameProperty: DESBDT
     idProperty: GEOCODIGO
     staticBorders: true
-    label: MapaBarrios
-  - min_zoom: 8
-    max_zoom: 12
-    serviceUrl: https://raw.githubusercontent.com/ods-lab/ods-data-madrid/develop/map/distrito_geojson.geojson
-    nameProperty: label
-    idProperty: codigoalternativo
-    staticBorders: true
-    label: MapaDistritos
+    subfolder: regions
+    # The label to use in the "Download GeoJSON" button:
+    label: indicator.map
+#    label: MapaBarrios
+#  - min_zoom: 8
+#    max_zoom: 17
+#    serviceUrl: https://raw.githubusercontent.com/ods-lab/ods-data-madrid/develop/map/distrito_geojson.geojson
+#    nameProperty: label
+#    idProperty: codigoalternativo
+#    staticBorders: true
+#    label: MapaDistritos
