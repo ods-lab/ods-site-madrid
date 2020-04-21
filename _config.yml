@@ -157,16 +157,21 @@ map_options:
   minZoom: 8
   maxZoom: 18
 map_layers:
-  # Country
   - min_zoom: 8
     max_zoom: 17
-    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson
-    nameProperty: DESBDT
-    idProperty: GEOCODIGO
-    staticBorders: true
-    subfolder: regions
+    label: Barrio
+#map_layers:
+  # Country
+#  - min_zoom: 8
+#    max_zoom: 17
+#    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson
+#    nameProperty: DESBDT
+#    idProperty: GEOCODIGO
+#    staticBorders: true
+#    subfolder: regions
     # The label to use in the "Download GeoJSON" button:
-    label: indicator.map
+ #   label: indicator.map
+
 #    label: MapaBarrios
 #  - min_zoom: 8
 #    max_zoom: 17
