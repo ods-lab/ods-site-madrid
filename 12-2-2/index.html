@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/ods-site-madrid/assets/css/style.css?v=20200424001705">
+        <link rel="stylesheet" href="/ods-site-madrid/assets/css/style.css?v=20200424115153">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -222,6 +222,7 @@ var translations = {
 
 </header>
 
+
 <script type="text/template" id="item_template">
   <% _.each(series, function(seriesItem) { %>
     <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
@@ -283,108 +284,67 @@ var translations = {
 
 <div id="main-content" class="container goal-12">
   <ol class="breadcrumb">
-    <li><a href="/ods-site-madrid/">Inicio</a></li>
-    <li><a href="/ods-site-madrid/12" title="Garantizar modalidades de consumo y producción sostenibles">Meta 12</a></li>
-    <li class="active">Indicador 12.2.2</li>
-  </ol>
-
-  <div class="row" id="page-content-row">
-    <div class="col-xs-12">
-      
-
-      <div id="page-content">
-  
-
-</div>
-
-    </div>
-  </div>
+  <li><a href="/ods-site-madrid/">Inicio</a></li>
+  <li><a href="/ods-site-madrid/12" title="Garantizar modalidades de consumo y producción sostenibles">Meta 12</a></li>
+  <li class="active">Indicador 12.2.2</li>
+</ol>
 
   
 
   
-  
+
 
   
 
   
-  <div class="row"
-    id="indicatorData"
-    data-indicatorid='indicator_12-2-2'
-    data-id="12-2-2"
-    data-country=""
-    data-charttitle="Consumo material interno en términos absolutos, consumo material interno per cápita y consumo material interno por PIB"
-    data-charttitles="null"
-    data-measurementunit=""
-    data-datasource=""
-    data-copyright=""
-    data-geographicalarea=""
-    data-footnote=""
-    data-showdata="false"
-    data-graphtype="line"
-    data-geocoderegex=""
-    data-showmap=""
-    data-startvalues="null"
-    data-graphlimits="null"
-    data-stackeddisaggregation=""
-  >
 
-    
-    <div id="indicator-main" class="col-md-12">
-    
+  <div class="row">
+  <div id="metadata-sidebar" class="indicator-sidebar col-md-3"></div>
+  <div id="metadata-main" class="indicator-main col-md-9">
+    <ul class="nav nav-tabs spacer medium" role="tablist">
 
-      
-
-      <section>
-
-        
-
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs spacer medium" role="tablist">
-        
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
+  <li role="presentation" class="nav-item active">
+  <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
 >Metadatos nacionales</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
+</li>
+<li role="presentation" class="nav-item">
+  <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
 >Metadatos globales</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
+</li>
+<li role="presentation" class="nav-item">
+  <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
 >Fuentes</a>
-          </li>
-        
-          
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
-          </li>
-          
-        </ul>
+</li>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          
-          <div role="tabpanel" class="tab-pane active" id="national">
-            <!-- National Metadata -->
-            <div > <!-- formerly class="collapsible expanded" -->
-              <!-- <h3 tabindex='0'>National Metadata</h3> -->
-              <article>
-                <p>
-                  
-                  
-                  Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de Madrid más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de madrileño, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de madrileño.
-                </p>
-                <table class="table">
+
+  
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
+  </li>
+  
+</ul>
+
+    <div class="tab-content">
+  
+    <div role="tabpanel" class="tab-pane active" id="national">
+  <!-- National Metadata -->
+  <div >
+    <article>
+      <p>
+        
+        
+        Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de Madrid más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de madrileño, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de madrileño.
+      </p>
+      <table class="table">
   
   
   
@@ -691,16 +651,15 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="global">
-            <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
-              <article>
-                <p>Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. <a href="https://unstats.un.org/sdgs/metadata/">La</a> División de Estadística de las Naciones Unidas proporciona <a href="https://unstats.un.org/sdgs/metadata/">los metadatos globales completos</a> .</p>
-                <table class="table">
+    </article>
+  </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="global">
+  <!-- Global Metadata -->
+  <div>
+    <article>
+      <p>Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. <a href="https://unstats.un.org/sdgs/metadata/">La</a> División de Estadística de las Naciones Unidas proporciona <a href="https://unstats.un.org/sdgs/metadata/">los metadatos globales completos</a> .</p>
+      <table class="table">
   
   
   
@@ -930,36 +889,38 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sources">
-            <!-- Count the non-empty sources (up to 5) -->
-
-
-
-
-
-          </div>
-          
-          
-          <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-              
-<a class="btn btn-primary" href="http://prose.io/#ods-lab/ods-data-madrid/edit/develop/data/indicator_12-2-2.csv">Editar datos</a>
-
-
-
-<a class="btn btn-primary" href="http://prose.io/#ods-lab/ods-data-madrid/edit/develop/meta/12-2-2.md">Editar metadatos</a>
-
-
-            </div>
-          </div>
-          
-        </div>
-      </section>
-    </div>
+    </article>
   </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="sources">
+  <!-- Count the non-empty sources (up to 5) -->
+
+
+
+
+
+</div>
+
+  
+  
+  <div role="tabpanel" class="tab-pane" id="edit">
+    <div class="edit-container">
+  
+  <a class="btn btn-primary" href="http://prose.io/#ods-lab/ods-data-madrid/edit/develop/data/indicator_12-2-2.csv">Editar datos</a>
+  
+
+  
+  <a class="btn btn-primary" href="http://prose.io/#ods-lab/ods-data-madrid/edit/develop/meta/12-2-2.md">Editar metadatos</a>
+  
+</div>
+
+  </div>
+  
+</div>
+
+  </div>
+</div>
+
 </div>
 
 <footer role="contentinfo">
@@ -1020,7 +981,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/ods-site-madrid/assets/js/sdg.js?v=20200424001705'></script><script>
+<script src='/ods-site-madrid/assets/js/sdg.js?v=20200424115153'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
