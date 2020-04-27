@@ -3,7 +3,7 @@
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example:
 #remote_theme: open-sdg/open-sdg@0.10.0
-remote_theme: open-sdg/open-sdg@1.0.0-beta
+remote_theme: open-sdg/open-sdg@1.0.0-beta2
 
 # Replace this title as needed.
 title: Indicadores para los objetivos de desarrollo sostenible. ODSLab
@@ -155,11 +155,28 @@ map_options:
     accessToken: pk.eyJ1IjoibW5sZ2FyYmUiLCJhIjoiY2s5NzdraHFkMGEyZzNlbWpvdTZna2s2YSJ9.fDUM6pveGSoESyPSoxN5Hw
     attribution: <a href="https://www.mapbox.com">Mapbox</a> | <a href="http://geoportal.statistics.gov.uk/">ONS</a>
   minZoom: 8
+  maxZoom: 18
 map_layers:
-  # Country
   - min_zoom: 8
-    max_zoom: 12
-    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/barrios.geojson
-    nameProperty: DESBDT
-    idProperty: 079046
-    staticBorders: true
+    max_zoom: 17
+    label: Barrio
+#map_layers:
+  # Country
+#  - min_zoom: 8
+#    max_zoom: 17
+#    serviceUrl: https://github.com/ods-lab/ods-data-madrid/raw/develop/map/Barrios.geojson
+#    nameProperty: DESBDT
+#    idProperty: GEOCODIGO
+#    staticBorders: true
+#    subfolder: regions
+    # The label to use in the "Download GeoJSON" button:
+ #   label: indicator.map
+
+#    label: MapaBarrios
+#  - min_zoom: 8
+#    max_zoom: 17
+#    serviceUrl: https://raw.githubusercontent.com/ods-lab/ods-data-madrid/develop/map/distrito_geojson.geojson
+#    nameProperty: label
+#    idProperty: codigoalternativo
+#    staticBorders: true
+#    label: MapaDistritos
