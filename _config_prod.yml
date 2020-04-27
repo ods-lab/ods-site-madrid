@@ -8,7 +8,7 @@
 # -- replace "my-github-org" with "my-awesome-github-org"
 # -- replace "open-sdg-site-starter" with "my-awesome-site-repo"
 # -- replace "open-sdg-data-starter" with "my-awesome-data-repo"
-#
+
 # NOTE: This "production" version only contains differences from _config.yml.
 #
 baseurl: ""
