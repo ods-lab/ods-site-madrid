@@ -1166,6 +1166,14 @@
           "status": "notstarted"
         },
         {
+          "id": "10-2-2",
+          "title": "Indice de vulnerabilidad",
+          "description": "",
+          "keywords": "",
+          "href": "/ods-site-madrid/10-2-2",
+          "status": "complete"
+        },
+        {
           "id": "10-3-1",
           "title": "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos",
           "description": "",
