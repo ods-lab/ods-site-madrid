@@ -15,6 +15,7 @@ url: ""
 data_dir: data
 environment: staging
 
+
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 remote_data_prefix: "https://ods-lab.github.io/ods-data-madrid"
